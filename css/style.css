@@ -358,17 +358,19 @@ text-align: center;
     text-align: center;
 }
 #form input{
-    padding: 17px 160px 17px 5px ;
+    padding: 17px 0 17px 5px ;
     font: 1em 'Proxima Nova';
     color: #777;
     background: #444;
     margin: 0 0 3px 0;
+    width: 323px;
 }
 #form button{
     display: block;
     margin: auto;
     background: #2b9b2b;
-    padding: 10px 148px 25px 148px ;
+    padding: 10px 0 25px 0 ;
+    width: 323px;
     font: .87em 'Proxima Nova';
     color: #ffffff;
     border-radius: 0 0 5px 5px;
@@ -505,9 +507,9 @@ text-align: center;
 }
 @media only screen and (max-width: 340px){
 #form input{
-    padding: 17px 100px 17px 5px ;
+    width: 200px;
 }
 #form button{
-    padding: 10px 118px 25px 118px ;
+    width: 200px;
 }
 }
